@@ -22,6 +22,7 @@
         "no-shadow": "off",
         "import/extensions": "off",
         "import/prefer-default-export": "off",
+        "no-plusplus": "off",
         "object-curly-newline": ["error", {
             "ImportDeclaration": "never",
             "ExportDeclaration": "never"

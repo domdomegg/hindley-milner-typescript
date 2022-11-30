@@ -1,1 +1,2 @@
-export const sum = (a: number, b: number): number => a + b;
+export { W } from './algorithm-w';
+export { M } from './algorithm-m';

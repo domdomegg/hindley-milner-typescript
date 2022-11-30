@@ -1,12 +1,12 @@
 {
-  "name": "typescript-library-template",
+  "name": "hindley-milner-typescript",
   "version": "0.0.0",
-  "description": "Template for creating TypeScript libraries",
   "license": "MIT",
   "author": "Adam Jones (domdomegg)",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/domdomegg/typescript-library-template.git"
+    "url": "https://github.com/domdomegg/hindley-milner-typescript.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -38,5 +38,8 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
+  },
+  "dependencies": {
+    "@masala/parser": "^1.0.0"
   }
 }

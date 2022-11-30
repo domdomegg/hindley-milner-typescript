@@ -1,12 +1,7 @@
-# typescript-library-template
+# hindley-milner-typescript
 
-Personal template for creating TypeScript libraries.
+Minimal TypeScript implementation of Hindley-Milner type inference
 
-## Usage
-
-1. Use a copy of this template
-2. Add the `NPM_TOKEN` secret (For publishing)
-3. Update the package name, description and repo URL in `package.json`
-4. Update this README
-5. Add the repo to the appropriate [file sync automation rules](https://github.com/domdomegg/domdomegg/blob/master/.github/workflows/repo-file-sync.yaml)
-6. Run `npm i` and start developing!
+Also see:
+- [Related YouTube channel](https://www.youtube.com/channel/UCqeVI8YTNP2K3fn6N-ZHP0g): A YouTube channel covering Hindley-Milner from first principles, intended to be accessible for people not already very familiar with functional languages or type theory.
+- [Ottie](https://github.com/domdomegg/ottie): A fuller implementation of Hindley-Milner type inference, on a richer language, combined with a web interface that makes inspecting what it's doing easier.
