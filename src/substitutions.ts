@@ -1,4 +1,4 @@
-import { Context, Monotype, Polytype } from './types';
+import { Context, Monotype, Polytype } from './models';
 
 export type Substitution = {
   type: 'substitution';

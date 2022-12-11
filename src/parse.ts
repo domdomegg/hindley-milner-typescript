@@ -1,5 +1,5 @@
 import { C, F, GenLex, Streams, SingleParser, Tuple } from '@masala/parser';
-import { Abstraction, Expression, Let, Variable } from './types';
+import { Abstraction, Expression, Let, Variable } from './models';
 
 const genlex = new GenLex();
 const identifier = genlex.tokenize(C.charIn('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789*+-/%<>^:_|&!\'').rep().map((t) => t.join()), 'identifier');

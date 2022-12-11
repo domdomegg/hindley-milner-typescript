@@ -1,6 +1,6 @@
 import { parse } from '../src/parse';
 import { W } from '../src/algorithm-w';
-import { Context } from '../src/types';
+import { Context } from '../src/models';
 
 test('variable', () => {
   const expr = parse('myVar');

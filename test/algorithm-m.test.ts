@@ -1,6 +1,6 @@
 import { parse } from '../src/parse';
 import { M } from '../src/algorithm-m';
-import { Context } from '../src/types';
+import { Context } from '../src/models';
 import { newTypeVar } from '../src/helpers';
 
 test('variable', () => {

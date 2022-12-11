@@ -1,18 +1,10 @@
+// Expressions
+
 export type Expression =
   | Variable
   | Application
   | Abstraction
   | Let
-
-export type Monotype =
-  | TypeVariable
-  | TypeAppication
-
-export type Polytype =
-  | Monotype
-  | TypeQuantifier
-
-export type Context = { [variable: string]: Polytype }
 
 export interface Variable {
   type: 'var';
@@ -37,6 +29,18 @@ export interface Let {
   e1: Expression;
   e2: Expression;
 }
+
+// Types
+
+export type Monotype =
+  | TypeVariable
+  | TypeAppication
+
+export type Polytype =
+  | Monotype
+  | TypeQuantifier
+
+export type Context = { [variable: string]: Polytype }
 
 export interface TypeVariable {
   type: 'var';

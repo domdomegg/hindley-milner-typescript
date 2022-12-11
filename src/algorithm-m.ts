@@ -1,5 +1,5 @@
 import { generalise, instantiate, newTypeVar, unify } from './helpers';
-import { Context, Expression, Monotype } from './types';
+import { Context, Expression, Monotype } from './models';
 import { Substitution } from './substitutions';
 
 export const M = (typEnv: Context, expr: Expression, type: Monotype): Substitution => {

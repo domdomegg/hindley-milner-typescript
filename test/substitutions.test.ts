@@ -1,5 +1,5 @@
 import { id, makeSubstitution } from '../src/substitutions';
-import { TypeVariable } from '../src/types';
+import { TypeVariable } from '../src/models';
 
 const [t0, t1, t2, t3]: TypeVariable[] = [0, 1, 2, 3].map((v) => ({ type: 'var', a: `t${v.toString()}` }));
 

@@ -1,4 +1,4 @@
-import { Context, Monotype, Polytype, TypeVariable } from './types';
+import { Context, Monotype, Polytype, TypeVariable } from './models';
 import { id, makeSubstitution, Substitution } from './substitutions';
 
 export const instantiate = (type: Polytype, mappings: Map<string, TypeVariable> = new Map()): Monotype => {
